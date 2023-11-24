@@ -1,0 +1,94 @@
+.card-con{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+
+}
+.pdf-box{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40vh;
+    padding: 20px;
+    padding-right: 100px;
+  
+  
+
+}.close-btn{
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 100px;
+    background-color: red;
+    padding: 9px;
+    margin-top: 5px;
+}
+.btn{
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 100px;
+    background-color: skyblue;
+    padding: 9px;
+    margin-top: 5px;
+}
+.card-amt{
+    font-size: 30px;
+}
+
+.pdf{
+    height: 100%;
+    width: 40%;
+    z-index: 1;
+    border-radius: 20px;
+
+  }
+.open-pdf{
+ 
+    height: 90vh;
+    width: 100vw;
+   
+}
+.pdf-img{
+    
+    width: 100%;
+    
+}
+.open-pdf-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-des{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media(max-width: 768px) {
+    .pdf-box{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 55vh;
+        padding: 0px;
+        padding-right: 00px;
+        margin-top: 30px;
+      
+    
+    }
+    .pdf{
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        border-radius: 20px;
+    
+      }
+
+}
