@@ -31,7 +31,12 @@ app.use("/api",pdfRoutes)
 //error handlaing
 // app.use(notFound);
 // app.use(errorHandler);
-app.use(cors());
+const corsOptions = {
+  origin: 'https://buy-pdf.netlify.app', // Update with your frontend URL
+  credentials: true,
+};
+
+app.use(cors(corsOptions));
 
 
 //start server
