@@ -58,9 +58,9 @@ app.get("/api/getkey",(req,res)=>{
     res.send(`<h2>this is homepage</h2>`)
 
 })
-app.get("/", (req, res) => {
-            res.send("<h2>this is homepage</h2>");
-        });
+// app.get("/", (req, res) => {
+//             res.send("<h2>this is homepage</h2>");
+//         });
 
 //deployment config
 
@@ -74,7 +74,7 @@ if (process.env.NODE_ENV === 'production') {
 } else {
     // Define a route for the homepage
     app.get("/", (req, res) => {
-        res.send("<h2>this is homepage</h2>");
+        res.send("<h2>this is homepage3</h2>");
     });
 }
 
